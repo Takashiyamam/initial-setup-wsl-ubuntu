@@ -27,3 +27,4 @@ nameserver 1.1.1.1 -> Add
 sudo nano /etc/wsl.conf
 # Added this line:
 [network]
+generateResolvConf = false

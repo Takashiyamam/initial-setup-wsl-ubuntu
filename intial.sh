@@ -14,7 +14,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo aptinstall docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo usermod -aG docker <your_username>
 
@@ -28,3 +28,15 @@ sudo nano /etc/wsl.conf
 # Added this line:
 [network]
 generateResolvConf = false
+
+#install git
+sudo apt install git -y
+
+#install aws-cli
+sudo snap install aws-cli --classic
+
+#install terraform
+sudo snap install terraform --clasic
+
+#install jq
+sudo snap install jq

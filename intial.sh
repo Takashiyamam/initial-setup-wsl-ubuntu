@@ -35,8 +35,12 @@ sudo apt install git -y
 #install aws-cli
 sudo snap install aws-cli --classic
 
+#install session manager plugin
+curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "session-manager-plugin.deb" && sudo dpkg -i session-manager-plugin.deb
+
 #install terraform
 sudo snap install terraform --clasic
 
 #install jq
 sudo snap install jq
+

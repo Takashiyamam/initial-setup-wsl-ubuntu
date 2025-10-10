@@ -44,3 +44,5 @@ sudo snap install terraform --clasic
 #install jq
 sudo snap install jq
 
+#install tree
+sudo snap install tree

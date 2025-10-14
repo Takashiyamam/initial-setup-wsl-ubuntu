@@ -46,3 +46,6 @@ sudo snap install jq
 
 #install tree
 sudo snap install tree
+
+#install other tools
+sudo apt install ripgrep eza fd-find bat
